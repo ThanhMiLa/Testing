@@ -1,0 +1,148 @@
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.logo-honda img {
+    width: 60%;
+}
+
+.header .title {
+    color: red;
+    font-weight: bold;
+    margin-left: 150px;
+}
+
+.search {
+    width: 25%;
+    margin-right: 20px;
+}
+
+/* Menu */
+.menu ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* information airbalde 160cc */
+
+.airbalde .title {
+    text-align: center;
+    color: #0ec0c4;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.airbalde .image-1 img {
+    width: 100%;
+}
+
+.airbalde .img-2-3-4 img,
+.airbalde .img-5-6-7 img {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.image-group-1,
+.image-group-2 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* Best-seller */
+.best-seller .title {
+    text-align: center;
+    color: #0ec0c4;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.img-1,
+.img-2,
+.img-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-1 img,
+.img-2 img,
+.img-3 img {
+    aspect-ratio: 6 / 5;
+    object-fit: contain;
+}
+
+.information {
+    text-align: left;
+}
+
+.information h3 {
+    color: orange;
+
+}
+
+.information p {
+    font-size: 1.5em;
+}
+
+/*Store - Order*/
+.store-order {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.store h1,
+.order h1 {
+    text-align: center;
+    color: #0ec0c4;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.order form {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.store img {
+    width: 80%;
+}
+
+/* Footer */
+.lefooter {
+    background-color: aqua;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .header {
+        display: block;
+        text-align: center;
+    }
+
+    .header .title {
+        margin: 0px auto;
+    }
+
+    .logo-honda {
+        width: 50%;
+        margin: 0px auto;
+        margin-bottom: 10px;
+    }
+
+    .search {
+        margin: 0px auto;
+        width: 70%;
+    }
+}
